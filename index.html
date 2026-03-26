@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <title>Home page for you</title>
+</head>
+<body>
+   
+
+    <section>
+        <nav>
+            <div class="nav-wrapper ">
+              <a href="index.html" class="brand-logo"><img src="img/classic-pokeball-icon-vector-62567767.avif" width="50px" height="64px"/></a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="form.html">registro</a></li>
+                <li><a href="mecanics.html">Mecanicas</a></li>
+              </ul>
+            </div>
+          </nav>
+    </section>
+    <section>
+        <div class="container">
+            <h2>Sobre</h2>
+            
+            <ul class="collapsible">
+              <li>
+                <div class="collapsible-header"><i class="material-icons">build</i>Mecanicas</div>
+                <div class="collapsible-body"><span>Mecanicas que irão ser adicionadas para o programa de jogos da Pocket Miniatures.</span></div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="material-icons">chevron_left</i>registro</div>
+                <div class="collapsible-body"><span>O registro deixa seus dados salvos para o uso consecutivo de itens e do progtama Pocket Miniatures.</span></div>
+              </li>
+            </ul>
+            </div>
+        
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        
+          <script>
+            document.addEventListener('DOMContentLoaded', function() {
+              var elems = document.querySelectorAll('.collapsible');
+              var instances = M.Collapsible.init(elems);
+            });
+          </script>
+        
+         
+
+     <script type="text/javascript" src="js/materialize.js"></script>
+</body>
+</html>

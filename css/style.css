@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+#formulario-completo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.bordinha{
+    border: 1px grey solid;
+    border-radius: 25px;
+}
+.align-ce{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#overflow-hide{
+    overflow: hidden;
+}

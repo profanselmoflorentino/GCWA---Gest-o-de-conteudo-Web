@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <link rel="stylesheet" href="css/materialize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>formulario</title>
+</head>
+
+<body>
+  <section>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo"><img src="img/classic-pokeball-icon-vector-62567767.avif" width="50px"
+            height="64px" /></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="form.html">registro</a></li>
+          <li><a href="mecanics.html">Mecanicas</a></li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+  <script src="js/materialize.js"></script>
+  <section id="formulario-completo">
+    <section class="bordinha">
+
+      <div class="row">
+        <form id="meuFormulario" class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+              <label for="first_name">First Name</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Last Name</label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="password" type="password" class="validate">
+              <label for="password">Password</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+          </div>
+
+          <script>
+            document.getElementById('meuLinkSubmit').addEventListener('click', function (event) {
+              event.preventDefault(); // Impede o link de navegar (##)
+              document.getElementById('meuFormulario').submit(); // Envia o formulário
+            });
+          </script>
+          <div class="row">
+            <a href="index.html" id="meuLinkSubmit"
+              class="btn waves-effect waves-light align-ce bordinha per-size">Enviar Formulario</a>
+          </div>
+      </div>
+      </div>
+      </form>
+
+
+
+      </div>
+    </section>
+  </section>
+</body>
+
+</html>
